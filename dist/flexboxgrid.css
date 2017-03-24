@@ -5,8 +5,8 @@
 }
 
 .container-fluid {
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 .row {
@@ -266,9 +266,9 @@
   order: 1;
 }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 45em) {
   .container {
-    width: 52rem;
+    width: 49rem;
   }
 
   .col-sm,
@@ -497,9 +497,9 @@
   }
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 62em) {
   .container {
-    width: 68rem;
+    width: 66rem;
   }
 
   .col-md,

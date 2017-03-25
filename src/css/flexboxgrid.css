@@ -16,9 +16,9 @@
   --container-lg: calc(var(--lg-min) + var(--gutter-width));
 }
 
-@custom-media --sm-viewport only screen and (min-width: 45em);
-@custom-media --md-viewport only screen and (min-width: 62em);
-@custom-media --lg-viewport only screen and (min-width: 75em);
+@custom-media --sm-viewport only screen and (min-width: 30em);
+@custom-media --md-viewport only screen and (min-width: 45em);
+@custom-media --lg-viewport only screen and (min-width: 62em);
 
 .container-fluid, .container {
   margin-right: auto;
